@@ -1,0 +1,105 @@
+<style type="text/css">
+
+/* BASIC ELEMENTS */
+body {font-family: Arial; color: #000000; font-size: 12; margin: 0 0 0 0; padding: 0; background:#FFFFFF;}
+table {font-family: Arial; color: #000000; font-size: 12; border-collapse: collapse; -moz-box-sizing: border-box; box-sizing: border-box;}
+ul {list-style-image: url('<?php print $imagesURL; ?>icon_note_large.gif');}
+
+/* BASIC HYPERLINKS */
+a:link, a:visited, a:active{text-decoration: none; color: <?php print $blue_bright; ?>;}
+a:hover{text-decoration: underline; color: <?php print $blue_bright; ?>;}
+
+/* PATHWAY LIST HYPERLINKS */
+a.ListLink:link{text-decoration: none; color: <?php print $blue_xdark; ?>;}	
+a.ListLink:visited, a.ListLink:active{text-decoration: none; color: <?php print $blue_dull; ?>;}
+a.ListLink:hover{text-decoration: underline; color: <?php print $blue_bright; ?>;}
+
+/* UPPER RIGHT CORNER TABS */
+.Tabs{background-color: #FFFFFF; background-image: url("<?php print $imagesURL; ?>tab_bg.gif"); background-position: top; background-repeat: repeat-x; height: 20;}
+a.TabLink:link, a.TabLink:visited, a.TabLink:active{
+	display: block; -moz-box-sizing: border-box; height: 18; padding: 0 4; background-color: transparent; font-weight: bold; font-size: 12; color: #FFFFFF; text-decoration: none; text-align: center; vertical-align: middle;
+}
+a.TabLink:hover{
+	display: block; -moz-box-sizing: border-box; height: 18; padding: 0 4; background-color: transparent; font-weight: bold; font-size: 12; color: <?php print $blue_xdark; ?>; text-decoration: none; text-align: center; vertical-align: middle;
+}
+
+/* LEFT SIDE MENU */
+.AboveMenu{padding: 2 4; width: <?php print $menu_width; ?>; -moz-box-sizing: border-box;}
+.Menu{background-color: <?php print $blue_med; ?>; background-image: url("<?php print $imagesURL; ?>menu_item_hover.gif"); background-position: right; background-repeat: repeat-y;}
+.MenuHeader{padding: 0 4; width:  <?php print $menu_width; ?>; background-color: <?php print $blue_dark; ?>; background-image: url("<?php print $imagesURL; ?>menu_header_bg.gif"); background-position: bottom right; background-repeat: no-repeat; color:#FFFFFF; font-weight:bold; font-size:13; border-bottom-style: solid; border-bottom-width: 1; border-bottom-color: <?php print $gray_med; ?>;}
+.MenuItem{width: <?php print $menu_width; ?>; background-color: <?php print $blue_med; ?>; background-image: url("<?php print $imagesURL; ?>menu_item_hover.gif"); background-position: top right; background-repeat: repeat-y;}
+.MenuSearchItem{-moz-box-sizing: border-box; background-color: <?php print$gray_lite; ?>; padding: 2 4; font-size: 11; font-weight: bold; color: <?php print $blue_xdark; ?>; width: <?php print $menu_width; ?>; border-bottom-style: solid; border-bottom-width: 1; border-bottom-color: <?php print $gray_med; ?>;}
+a.MenuLink:link, a.MenuLink:visited{
+	display: block; -moz-box-sizing: border-box; width: <?php print $menu_width; ?>; padding: 2 4; background-color: <?php print $gray_lite; ?>; font-size: 11; font-weight: bold; color: <?php print $blue_xdark; ?>; text-decoration: none; text-align: left; vertical-align: middle; border-bottom-style: solid; border-bottom-width: 1; border-bottom-color: <?php print $gray_med; ?>;
+}
+a.MenuLink:hover, a.MenuLink:active{
+	display: block; -moz-box-sizing: border-box; width: <?php print $menu_width; ?>; padding: 2 4; background-color: transparent; font-size: 11; font-weight: bold; color: <?php print $blue_xdark; ?>; text-decoration: none; text-align: left; vertical-align: middle; border-bottom-style: solid; border-bottom-width: 1; border-bottom-color: <?php print $gray_med; ?>;
+}
+
+/* SPECIAL BODY ELEMENTS */
+.Note{font-size: 11; color: <?php print $gray_dark; ?>;}
+.Help{cursor:help;}
+.Title{font-Size: 14; font-weight: bold; color: <?php print $blue_dark; ?>;}
+.NewsHeader{font-size: 11; font-weight: bold; color: #FFFFFF; background-image: url("<?php print $imagesURL; ?>news_header_bg.gif"); height: 18;}
+.News{
+	border-left-style: solid; border-left-width: 2; border-left-color: <?php print $blue_dark; ?>; border-top-style: none; border-right-style: solid; border-right-width: 2; border-right-color: <?php print $blue_dark; ?>; border-bottom-style: dashed; border-bottom-width: 1; border-bottom-color: <?php print $gray_med; ?>; background-color: #FFFFFF; font-size: 11; padding: 2 6;
+	width:180; height:120;
+	overflow: auto; -moz-box-sizing: border-box;
+	scrollbar-face-color: #FFFFFF;
+	scrollbar-highlight-color: <?php print $blue_lite; ?>;
+	scrollbar-3dlight-color: #FFFFFF;
+	scrollbar-darkshadow-color: #FFFFFF;
+	scrollbar-shadow-color: <?php print $blue_lite; ?>;
+	scrollbar-arrow-color: <?php print $blue_dark; ?>;
+	scrollbar-track-color: #FFFFFF;
+}
+.NewsBottom{height: 8; background-image: url("<?php print $imagesURL; ?>news_bottom_bg.gif");}
+.News hr{height: 1; border:none; background-color: <? print $gray_med; ?>; color: <? print $gray_med; ?>;}
+.CategoryTitles{background-image: url("<?php print $imagesURL; ?>category_title_bg.gif"); background-position: bottom; background-repeat: repeat-x; color:<?php print $blue_dark; ?>; font-weight:normal; font-size:18; border-bottom-style: solid; border-bottom-width: 1; border-bottom-color: <?php print $gray_med; ?>;}
+.CategoryTitlesEnder{width:16; background-image: url("<?php print $imagesURL; ?>category_title_end.gif"); background-position: bottom; background-repeat: no-repeat; border-bottom-style: solid; border-bottom-width: 1; border-bottom-color: <?php print $gray_med; ?>;}
+.ColumnTitles{font-size: 10; color: <?php print $blue_dark; ?>; background-color: <?php print $gray_lite; ?>; border-bottom-style: dashed; border-bottom-width: 1; border-bottom-color: <?php print $gray_med; ?>;}
+.TableSideHeader{width: 114; font-weight: normal; font-size: 11; color: #FFFFFF; background-color: <?php print $blue_xdark; ?>; background-image: url("<?php print $imagesURL; ?>table_side_header_bg.gif"); border-bottom-style: solid; border-bottom-color: #FFFFFF; border-bottom-width: 2; border-right-style: solid; border-right-color: #FFFFFF; border-right-width: 6;}
+.TableListTop{background-image: url("<?php print $imagesURL; ?>table_corner_top.gif"); background-position: top left; background-repeat: no-repeat;}
+.TableListBottom{background-image: url("<?php print $imagesURL; ?>table_corner_bottom.gif"); background-position: bottom right; background-repeat: no-repeat;}
+.HorizontalDivider{border-top-style: dashed; border-top-width: 1; border-top-color: <?php print $gray_med; ?>;}
+.Standard{font-size:11; font-weight:bold; background:<?php print $blue_med; ?>; color:#FFFFFF;}
+.Footer{font-size: 10; color: <?php print $gray_dark; ?>;}
+
+.Input{table-layout: fixed; width:<?php print $input_width; ?>; height:200; overflow: scroll;}
+.PubMedTable{table-layout: fixed; border-collapse: separate; border-spacing: 0 ; border-style: solid; border-color: <?php print $gray_med; ?>; border-width:1;}
+.PubMedTable td{border-style:none; padding:2;}
+
+.Highlight{background-color: <?php print $blue_lite; ?> !important;}
+.Odd{background-color: #FFFFFF}
+.Even{background-color: <?php print $gray_lite; ?>}
+.FormLabel{font-size: 12; font-weight: bold; color: <?php print $blue_xdark; ?>;}
+
+/* DATABASE INTERACTIONS */
+
+#HiddenResources{display: none;}
+#SelectedNetRes{color: #12394D;}
+#NetworkVis{height: 480px; width: 100%;color: <?php print $blue_dark; ?>; background-color: <?php print $gray_lite; ?>; border-top: 1px dashed <?php print $gray_med; ?>;border-bottom: 1px dashed <?php print $gray_med; ?>;}
+#NetworkVisMenu{text-align:right; color: <?php print $blue_bright; ?>;}
+
+#NetworkLegendsBox{width: 520px; text-align:center; margin: 0 auto;}
+.NetworkLegend th{padding: 0 0 8 0; text-align:left;}
+.NetworkLegend td{height: 18px;}
+#ResourceTypeLegend{float: left; width: 220px;}
+#ResourceTypeLegend tr > td:first-child{width: 18px;}
+#InteractionTypeLegend{float: right; width: 280px;}
+#InteractionTypeLegend td{padding: 0 4 0 0;}
+
+.IconResType{width: 14px; height: 14px; background-image: url(images/icon_res_type.png); background-repeat: no-repeat;}
+.LegendResTypeInter{ background-color: #0099ff; }
+.LegendResTypePred{ background-color: #e6e600; }
+.LegendResTypePath{ background-color: #33cc00; }
+.LegendResTypeMeta{ background-color: #ff0033; }
+.LegendResTypeUnif{ background-color: #cccccc; }
+.LegendResTypeExch{ background-color: #ff00ff; }
+.LegendResTypeNot{ background-color: #ff9999; }
+
+.IconInterTypeMines{width: 29px; height: 18px; background-image: url(images/icon_arrow_delta.png); background-repeat: no-repeat;}
+.IconInterTypeMaps{width: 29px; height: 18px; background-image: url(images/icon_arrow_diamond.png); background-repeat: no-repeat;}
+.IconInterTypeExch{width: 29px; height: 18px; background-image: url(images/icon_arrow_none.png); background-repeat: no-repeat;}
+
+</style>

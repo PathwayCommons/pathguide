@@ -1,0 +1,988 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<graph label="UnifyingEffortsDB" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cy="http://www.cytoscape.org" xmlns="http://www.cs.rpi.edu/XGMML"  directed="1">
+  <att name="documentVersion" value="1.1"/>
+  <att name="networkMetadata">
+    <rdf:RDF>
+      <rdf:Description rdf:about="http://www.cytoscape.org/">
+        <dc:type>Protein-Protein Interaction</dc:type>
+        <dc:description>N/A</dc:description>
+        <dc:identifier>N/A</dc:identifier>
+        <dc:date>2010-07-23 12:07:17</dc:date>
+        <dc:title>UnifyingEffortsDB</dc:title>
+        <dc:source>http://www.cytoscape.org/</dc:source>
+        <dc:format>Cytoscape-XGMML</dc:format>
+      </rdf:Description>
+    </rdf:RDF>
+  </att>
+  <att type="string" name="backgroundColor" value="#ffffff"/>
+  <att type="real" name="GRAPH_VIEW_ZOOM" value="1.131085168599323"/>
+  <att type="real" name="GRAPH_VIEW_CENTER_X" value="1000.8920097571176"/>
+  <att type="real" name="GRAPH_VIEW_CENTER_Y" value="1726.9308176808831"/>
+  <att type="string" name="__layoutAlgorithm" value="Kamada-Kawai" cy:hidden="true"/>
+  <node label="MINT" id="-4">
+    <att type="string" name="ID" value="MINT"/>
+    <att type="integer" name="PGID" value="17"/>
+    <att type="string" name="canonicalName" value="MINT"/>
+    <att type="list" name="cytoscape.alias.list">
+      <att type="string" name="cytoscape.alias.list" value="MINT"/>
+    </att>
+    <att type="string" name="node.fillColor" value="0,153,255"/>
+    <graphics type="ELLIPSE" h="40.0" w="40.000213623046875" x="514.0676422119141" y="1651.74951171875" fill="#0099ff" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="RatGenomeDatabase" id="-176">
+    <att type="string" name="canonicalName" value="RatGenomeDatabase"/>
+    <graphics type="ELLIPSE" h="40.0" w="40.0" x="1088.6864013671875" y="1737.1632080078125" fill="#ff9999" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="SCOP" id="-175">
+    <att type="string" name="canonicalName" value="SCOP"/>
+    <graphics type="ELLIPSE" h="40.0" w="40.0" x="1040.4759521484375" y="1778.9832763671875" fill="#ff9999" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="SMART" id="-63">
+    <att type="string" name="ID" value="SMART"/>
+    <att type="string" name="URL" value="http://smart.embl-heidelberg.de/"/>
+    <att type="string" name="canonicalName" value="SMART"/>
+    <att type="list" name="cytoscape.alias.list">
+      <att type="string" name="cytoscape.alias.list" value="SMART"/>
+    </att>
+    <graphics type="ELLIPSE" h="40.0" w="40.0" x="1088.0589599609375" y="1907.50390625" fill="#ff9999" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="Sanger" id="-74">
+    <att type="string" name="ID" value="Sanger"/>
+    <att type="string" name="URL" value="http://genomebiology.com/2004/5/9/R63"/>
+    <att type="string" name="canonicalName" value="Sanger"/>
+    <att type="list" name="cytoscape.alias.list">
+      <att type="string" name="cytoscape.alias.list" value="Sanger"/>
+    </att>
+    <graphics type="ELLIPSE" h="40.0" w="40.0" x="553.9735107421875" y="1568.9228515625" fill="#ff9999" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="PDB" id="-66">
+    <att type="string" name="ID" value="PDB"/>
+    <att type="string" name="URL" value="http://www.rcsb.org/pdb/home/home.do"/>
+    <att type="string" name="canonicalName" value="PDB"/>
+    <att type="list" name="cytoscape.alias.list">
+      <att type="string" name="cytoscape.alias.list" value="PDB"/>
+    </att>
+    <graphics type="ELLIPSE" h="40.0" w="40.0" x="814.9408569335938" y="1947.39453125" fill="#ff9999" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="EURATools" id="-174">
+    <att type="string" name="canonicalName" value="EURATools"/>
+    <graphics type="ELLIPSE" h="40.0" w="40.0" x="1425.9815673828125" y="1513.24951171875" fill="#ff9999" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="DASMI" id="-73">
+    <att type="string" name="ID" value="DASMI"/>
+    <att type="string" name="URL" value="http://dasmi.de/datasources.php"/>
+    <att type="string" name="canonicalName" value="DASMI"/>
+    <att type="list" name="cytoscape.alias.list">
+      <att type="string" name="cytoscape.alias.list" value="DASMI"/>
+    </att>
+    <att type="string" name="node.fillColor" value="204,204,204"/>
+    <graphics type="ELLIPSE" h="40.0" w="40.0" x="729.2940673828125" y="1611.04736328125" fill="#cccccc" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="HPRD" id="-8">
+    <att type="string" name="ID" value="HPRD"/>
+    <att type="integer" name="PGID" value="14"/>
+    <att type="string" name="canonicalName" value="HPRD"/>
+    <att type="list" name="cytoscape.alias.list">
+      <att type="string" name="cytoscape.alias.list" value="HPRD"/>
+    </att>
+    <att type="string" name="node.fillColor" value="0,153,255"/>
+    <graphics type="ELLIPSE" h="40.0" w="40.0" x="574.1126708984375" y="1477.3284912109375" fill="#0099ff" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="Gramene" id="-173">
+    <att type="string" name="canonicalName" value="Gramene"/>
+    <graphics type="ELLIPSE" h="40.0" w="40.0" x="1234.2777099609375" y="1852.478515625" fill="#ff9999" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="COSMIC" id="-172">
+    <att type="string" name="canonicalName" value="COSMIC"/>
+    <graphics type="ELLIPSE" h="40.0" w="40.0" x="1415.348876953125" y="1746.5709228515625" fill="#ff9999" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="DIP" id="-9">
+    <att type="string" name="ID" value="DIP"/>
+    <att type="integer" name="PGID" value="3"/>
+    <att type="string" name="canonicalName" value="DIP"/>
+    <att type="list" name="cytoscape.alias.list">
+      <att type="string" name="cytoscape.alias.list" value="DIP"/>
+    </att>
+    <att type="string" name="node.fillColor" value="0,153,255"/>
+    <graphics type="ELLIPSE" h="40.0" w="40.0" x="637.4511108398438" y="1502.06005859375" fill="#0099ff" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="CATH" id="-171">
+    <att type="string" name="canonicalName" value="CATH"/>
+    <graphics type="ELLIPSE" h="40.0" w="40.0" x="873.0628051757812" y="2013.2662353515625" fill="#ff9999" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="PROSITE" id="-170">
+    <att type="string" name="canonicalName" value="PROSITE"/>
+    <graphics type="ELLIPSE" h="40.0" w="40.0" x="880.9874267578125" y="1753.3685302734375" fill="#ff9999" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="InterPro" id="-12">
+    <att type="string" name="ID" value="InterPro"/>
+    <att type="string" name="URL" value="http://www.ebi.ac.uk/interpro/"/>
+    <att type="string" name="canonicalName" value="InterPro"/>
+    <att type="list" name="cytoscape.alias.list">
+      <att type="string" name="cytoscape.alias.list" value="InterPro"/>
+    </att>
+    <att type="string" name="node.fillColor" value="204,204,204"/>
+    <graphics type="ELLIPSE" h="40.0" w="40.0" x="952.76025390625" y="1890.1048583984375" fill="#cccccc" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="LLZ" id="-85">
+    <att type="string" name="ID" value="LLZ"/>
+    <att type="string" name="URL" value="http://bioinformatics.med.yale.edu/interaction/"/>
+    <att type="string" name="canonicalName" value="LLZ"/>
+    <att type="list" name="cytoscape.alias.list">
+      <att type="string" name="cytoscape.alias.list" value="LLZ"/>
+    </att>
+    <graphics type="ELLIPSE" h="40.0" w="40.0" x="558.822998046875" y="1724.2059326171875" fill="#ff9999" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="CCSB-HI1" id="-169">
+    <att type="string" name="canonicalName" value="CCSB-HI1"/>
+    <graphics type="ELLIPSE" h="40.0" w="40.0" x="886.25830078125" y="1674.0643310546875" fill="#ff9999" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="PRINTS" id="-168">
+    <att type="string" name="canonicalName" value="PRINTS"/>
+    <graphics type="ELLIPSE" h="40.0" w="40.0" x="833.348876953125" y="1790.447021484375" fill="#ff9999" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="Pfam" id="-15">
+    <att type="string" name="ID" value="Pfam"/>
+    <att type="string" name="URL" value="http://pfam.sanger.ac.uk/"/>
+    <att type="string" name="canonicalName" value="Pfam"/>
+    <att type="list" name="cytoscape.alias.list">
+      <att type="string" name="cytoscape.alias.list" value="Pfam"/>
+    </att>
+    <graphics type="ELLIPSE" h="40.0" w="40.0" x="915.9602661132812" y="2028.1474609375" fill="#ff9999" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="HiMAP" id="-86">
+    <att type="string" name="ID" value="HiMAP"/>
+    <att type="integer" name="PGID" value="186"/>
+    <att type="string" name="canonicalName" value="HiMAP"/>
+    <att type="list" name="cytoscape.alias.list">
+      <att type="string" name="cytoscape.alias.list" value="HiMAP"/>
+    </att>
+    <graphics type="ELLIPSE" h="40.0" w="40.0" x="883.9446411132812" y="1634.79052734375" fill="#ff9999" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="BioGRID" id="-18">
+    <att type="string" name="ID" value="BioGRID"/>
+    <att type="integer" name="PGID" value="7"/>
+    <att type="string" name="canonicalName" value="BioGRID"/>
+    <att type="list" name="cytoscape.alias.list">
+      <att type="string" name="cytoscape.alias.list" value="BioGRID"/>
+    </att>
+    <att type="string" name="node.fillColor" value="0,153,255"/>
+    <graphics type="ELLIPSE" h="40.0" w="40.0" x="833.255126953125" y="1727.228515625" fill="#0099ff" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="DroSpeGe" id="-167">
+    <att type="string" name="canonicalName" value="DroSpeGe"/>
+    <graphics type="ELLIPSE" h="40.0" w="40.0" x="1317.2288818359375" y="1470.589111328125" fill="#ff9999" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="Wormbase" id="-166">
+    <att type="string" name="canonicalName" value="Wormbase"/>
+    <graphics type="ELLIPSE" h="40.0" w="40.0" x="1481.222412109375" y="1741.269775390625" fill="#ff9999" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="IPPRI" id="-87">
+    <att type="string" name="ID" value="IPPRI"/>
+    <att type="string" name="URL" value="http://bioinformatics.oxfordjournals.org/cgi/content/full/24/16/i35"/>
+    <att type="string" name="canonicalName" value="IPPRI"/>
+    <att type="list" name="cytoscape.alias.list">
+      <att type="string" name="cytoscape.alias.list" value="IPPRI"/>
+    </att>
+    <graphics type="ELLIPSE" h="40.0" w="40.0" x="780.6883544921875" y="1450.0401611328125" fill="#ff9999" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="APMM" id="-88">
+    <att type="string" name="ID" value="APMM"/>
+    <att type="string" name="URL" value="http://intelligent.eic.osaka-sandai.ac.jp/chenen/MDCinfer.htm"/>
+    <att type="string" name="canonicalName" value="APMM"/>
+    <att type="list" name="cytoscape.alias.list">
+      <att type="string" name="cytoscape.alias.list" value="APMM"/>
+    </att>
+    <graphics type="ELLIPSE" h="40.0" w="40.0" x="743.6705322265625" y="1773.9254150390625" fill="#ff9999" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="FunSimMat2.1" id="-83">
+    <att type="string" name="ID" value="FunSimMat2.1"/>
+    <att type="string" name="URL" value="http://funsimmat.bioinf.mpi-inf.mpg.de/"/>
+    <att type="string" name="canonicalName" value="FunSimMat2.1"/>
+    <att type="list" name="cytoscape.alias.list">
+      <att type="string" name="cytoscape.alias.list" value="FunSimMat2.1"/>
+    </att>
+    <graphics type="ELLIPSE" h="40.0" w="40.0" x="935.8551025390625" y="1488.3961181640625" fill="#ff9999" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="TIGRFAMs" id="-165">
+    <att type="string" name="canonicalName" value="TIGRFAMs"/>
+    <graphics type="ELLIPSE" h="40.0" w="40.0" x="799.5267333984375" y="1907.4072265625" fill="#ff9999" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="Reactome" id="-22">
+    <att type="string" name="ID" value="Reactome"/>
+    <att type="integer" name="PGID" value="103"/>
+    <att type="string" name="canonicalName" value="Reactome"/>
+    <att type="list" name="cytoscape.alias.list">
+      <att type="string" name="cytoscape.alias.list" value="Reactome"/>
+    </att>
+    <att type="string" name="node.fillColor" value="0,204,0"/>
+    <graphics type="ELLIPSE" h="40.0" w="40.0" x="1265.8680419921875" y="1524.9857177734375" fill="#00cc00" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="MDC" id="-164">
+    <att type="string" name="canonicalName" value="MDC"/>
+    <graphics type="ELLIPSE" h="40.0" w="40.0" x="528.4129028320312" y="1483.8773193359375" fill="#ff9999" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="HTGT" id="-163">
+    <att type="string" name="canonicalName" value="HTGT"/>
+    <graphics type="ELLIPSE" h="40.0" w="40.0" x="1374.9095458984375" y="1517.6561279296875" fill="#ff9999" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="DPEA" id="-84">
+    <att type="string" name="ID" value="DPEA"/>
+    <att type="string" name="URL" value="http://genomebiology.com/2005/6/10/R89"/>
+    <att type="string" name="canonicalName" value="DPEA"/>
+    <att type="list" name="cytoscape.alias.list">
+      <att type="string" name="cytoscape.alias.list" value="DPEA"/>
+    </att>
+    <graphics type="ELLIPSE" h="40.0" w="40.0" x="696.7159423828125" y="1779.4827880859375" fill="#ff9999" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="CyanoBase" id="-162">
+    <att type="string" name="canonicalName" value="CyanoBase"/>
+    <graphics type="ELLIPSE" h="40.0" w="40.0" x="1395.4208984375" y="1574.238037109375" fill="#ff9999" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="Swiss-Model" id="-161">
+    <att type="string" name="canonicalName" value="Swiss-Model"/>
+    <graphics type="ELLIPSE" h="40.0" w="40.0" x="1061.4588623046875" y="1988.3935546875" fill="#ff9999" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="Eurexpress" id="-160">
+    <att type="string" name="canonicalName" value="Eurexpress"/>
+    <graphics type="ELLIPSE" h="40.0" w="40.0" x="1154.4815673828125" y="1569.497314453125" fill="#ff9999" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="RDFF" id="-78">
+    <att type="string" name="ID" value="RDFF"/>
+    <att type="string" name="URL" value="http://www.ittc.ku.edu/~xwchen/PPI/random_forest_PPI.htm"/>
+    <att type="string" name="canonicalName" value="RDFF"/>
+    <att type="list" name="cytoscape.alias.list">
+      <att type="string" name="cytoscape.alias.list" value="RDFF"/>
+    </att>
+    <graphics type="ELLIPSE" h="40.0" w="40.0" x="735.6439208984375" y="1444.6871337890625" fill="#ff9999" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="Rice-Map" id="-159">
+    <att type="string" name="canonicalName" value="Rice-Map"/>
+    <graphics type="ELLIPSE" h="40.0" w="40.0" x="1379.322265625" y="1470.5321044921875" fill="#ff9999" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="Phytozome" id="-158">
+    <att type="string" name="canonicalName" value="Phytozome"/>
+    <graphics type="ELLIPSE" h="40.0" w="40.0" x="1474.103759765625" y="1569.854736328125" fill="#ff9999" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="Dictybase" id="-157">
+    <att type="string" name="canonicalName" value="Dictybase"/>
+    <graphics type="ELLIPSE" h="40.0" w="40.0" x="1129.6673583984375" y="1489.9871826171875" fill="#ff9999" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="Bioverse" id="-80">
+    <att type="string" name="ID" value="Bioverse"/>
+    <att type="string" name="URL" value="http://bioverse.compbio.washington.edu/"/>
+    <att type="string" name="canonicalName" value="Bioverse"/>
+    <att type="list" name="cytoscape.alias.list">
+      <att type="string" name="cytoscape.alias.list" value="Bioverse"/>
+    </att>
+    <graphics type="ELLIPSE" h="40.0" w="40.0" x="937.7024536132812" y="1603.1097412109375" fill="#ff9999" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="Ensembl" id="-29">
+    <att type="string" name="ID" value="Ensembl"/>
+    <att type="string" name="URL" value="http://www.ensembl.org/"/>
+    <att type="string" name="canonicalName" value="Ensembl"/>
+    <att type="list" name="cytoscape.alias.list">
+      <att type="string" name="cytoscape.alias.list" value="Ensembl"/>
+    </att>
+    <graphics type="ELLIPSE" h="40.0" w="40.0" x="1131.7581787109375" y="1799.6195068359375" fill="#ff9999" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="PANTHER" id="-65">
+    <att type="string" name="ID" value="PANTHER"/>
+    <att type="integer" name="PGID" value="164"/>
+    <att type="string" name="canonicalName" value="PANTHER"/>
+    <att type="list" name="cytoscape.alias.list">
+      <att type="string" name="cytoscape.alias.list" value="PANTHER"/>
+    </att>
+    <att type="string" name="node.fillColor" value="0,204,0"/>
+    <graphics type="ELLIPSE" h="40.0" w="40.0" x="972.604736328125" y="2039.562744140625" fill="#00cc00" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="TW" id="-79">
+    <att type="string" name="ID" value="TW"/>
+    <att type="string" name="URL" value="http://www.biomedcentral.com/1471-2164/7/122/abstract"/>
+    <att type="string" name="canonicalName" value="TW"/>
+    <att type="list" name="cytoscape.alias.list">
+      <att type="string" name="cytoscape.alias.list" value="TW"/>
+    </att>
+    <graphics type="ELLIPSE" h="40.0" w="40.0" x="900.7546997070312" y="1542.668212890625" fill="#ff9999" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="IKMC" id="-156">
+    <att type="string" name="canonicalName" value="IKMC"/>
+    <graphics type="ELLIPSE" h="40.0" w="40.0" x="1428.2872314453125" y="1639.6748046875" fill="#ff9999" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="HGNC" id="-119">
+    <att type="string" name="ID" value="HGNC"/>
+    <att type="string" name="URL" value="http://www.genenames.org/"/>
+    <att type="string" name="canonicalName" value="HGNC"/>
+    <att type="list" name="cytoscape.alias.list">
+      <att type="string" name="cytoscape.alias.list" value="HGNC"/>
+    </att>
+    <graphics type="ELLIPSE" h="40.0" w="40.0" x="1343.4561767578125" y="1904.613525390625" fill="#ff9999" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="MEROPS" id="-155">
+    <att type="string" name="canonicalName" value="MEROPS"/>
+    <graphics type="ELLIPSE" h="40.0" w="40.0" x="834.8338623046875" y="1986.3916015625" fill="#ff9999" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="RCDP50" id="-82">
+    <att type="string" name="ID" value="RCDP50"/>
+    <att type="string" name="URL" value="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1618801/"/>
+    <att type="string" name="canonicalName" value="RCDP50"/>
+    <att type="list" name="cytoscape.alias.list">
+      <att type="string" name="cytoscape.alias.list" value="RCDP50"/>
+    </att>
+    <graphics type="ELLIPSE" h="40.0" w="40.0" x="639.6265258789062" y="1444.8341064453125" fill="#ff9999" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="DIMA" id="-81">
+    <att type="string" name="ID" value="DIMA"/>
+    <att type="integer" name="PGID" value="262"/>
+    <att type="string" name="canonicalName" value="DIMA"/>
+    <att type="list" name="cytoscape.alias.list">
+      <att type="string" name="cytoscape.alias.list" value="DIMA"/>
+    </att>
+    <graphics type="ELLIPSE" h="40.0" w="40.0" x="821.9820556640625" y="1453.7919921875" fill="#ff9999" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="IntAct" id="-30">
+    <att type="string" name="ID" value="IntAct"/>
+    <att type="integer" name="PGID" value="111"/>
+    <att type="string" name="canonicalName" value="IntAct"/>
+    <att type="list" name="cytoscape.alias.list">
+      <att type="string" name="cytoscape.alias.list" value="IntAct"/>
+    </att>
+    <att type="string" name="node.fillColor" value="0,153,255"/>
+    <graphics type="ELLIPSE" h="40.0" w="40.0" x="911.2249145507812" y="1718.297607421875" fill="#0099ff" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="ParameciumDB" id="-154">
+    <att type="string" name="canonicalName" value="ParameciumDB"/>
+    <graphics type="ELLIPSE" h="40.0" w="40.0" x="1447.14501953125" y="1791.88525390625" fill="#ff9999" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="MPIDB" id="-52">
+    <att type="string" name="ID" value="MPIDB"/>
+    <att type="integer" name="PGID" value="273"/>
+    <att type="string" name="canonicalName" value="MPIDB"/>
+    <att type="list" name="cytoscape.alias.list">
+      <att type="string" name="cytoscape.alias.list" value="MPIDB"/>
+    </att>
+    <att type="string" name="node.fillColor" value="0,153,255"/>
+    <graphics type="ELLIPSE" h="40.0" w="40.0" x="599.4418334960938" y="1736.53662109375" fill="#0099ff" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="ArrayExpress" id="-153">
+    <att type="string" name="canonicalName" value="ArrayExpress"/>
+    <graphics type="ELLIPSE" h="40.0" w="40.0" x="1067.0635986328125" y="1610.917724609375" fill="#ff9999" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="BioMart" id="-152">
+    <att type="string" name="canonicalName" value="BioMart"/>
+    <graphics type="ELLIPSE" h="40.0" w="40.0" x="1247.5794677734375" y="1672.3895263671875" fill="#ff9999" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="PepSeeker" id="-151">
+    <att type="string" name="canonicalName" value="PepSeeker"/>
+    <graphics type="ELLIPSE" h="40.0" w="40.0" x="1466.83642578125" y="1702.4134521484375" fill="#ff9999" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="MGI" id="-150">
+    <att type="string" name="canonicalName" value="MGI"/>
+    <graphics type="ELLIPSE" h="40.0" w="40.0" x="1177.8956298828125" y="1452.358642578125" fill="#ff9999" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="VectorBase" id="-149">
+    <att type="string" name="canonicalName" value="VectorBase"/>
+    <graphics type="ELLIPSE" h="40.0" w="40.0" x="1408.3214111328125" y="1836.4227294921875" fill="#ff9999" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="MSD" id="-148">
+    <att type="string" name="ID" value="MSD"/>
+    <att type="string" name="URL" value="http://www.ebi.ac.uk/pdbe/"/>
+    <att type="string" name="canonicalName" value="MSD"/>
+    <att type="list" name="cytoscape.alias.list">
+      <att type="string" name="cytoscape.alias.list" value="MSD"/>
+    </att>
+    <graphics type="ELLIPSE" h="40.0" w="40.0" x="1028.210205078125" y="1654.515625" fill="#ff9999" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="3did" id="-76">
+    <att type="string" name="ID" value="3did"/>
+    <att type="integer" name="PGID" value="174"/>
+    <att type="string" name="canonicalName" value="3did"/>
+    <att type="list" name="cytoscape.alias.list">
+      <att type="string" name="cytoscape.alias.list" value="3did"/>
+    </att>
+    <graphics type="ELLIPSE" h="40.0" w="40.0" x="855.8299560546875" y="1508.500732421875" fill="#ff9999" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="iPfam" id="-75">
+    <att type="string" name="ID" value="iPfam"/>
+    <att type="integer" name="PGID" value="195"/>
+    <att type="string" name="canonicalName" value="iPfam"/>
+    <att type="list" name="cytoscape.alias.list">
+      <att type="string" name="cytoscape.alias.list" value="iPfam"/>
+    </att>
+    <graphics type="ELLIPSE" h="40.0" w="40.0" x="682.4447631835938" y="1457.12841796875" fill="#ff9999" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="GermOnLine" id="-147">
+    <att type="string" name="canonicalName" value="GermOnLine"/>
+    <graphics type="ELLIPSE" h="40.0" w="40.0" x="1228.588134765625" y="1471.9605712890625" fill="#ff9999" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="Domainsupport" id="-77">
+    <att type="string" name="ID" value="Domainsupport"/>
+    <att type="string" name="URL" value="http://www.dasmi.de/"/>
+    <att type="string" name="canonicalName" value="Domainsupport"/>
+    <att type="list" name="cytoscape.alias.list">
+      <att type="string" name="cytoscape.alias.list" value="Domainsupport"/>
+    </att>
+    <graphics type="ELLIPSE" h="40.0" w="40.000244140625" x="533.6336059570312" y="1523.3563232421875" fill="#ff9999" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="PRIDE" id="-146">
+    <att type="string" name="canonicalName" value="PRIDE"/>
+    <graphics type="ELLIPSE" h="40.0" w="40.0" x="1266.5887451171875" y="1816.5748291015625" fill="#ff9999" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="SUPERFAMILY" id="-145">
+    <att type="string" name="canonicalName" value="SUPERFAMILY"/>
+    <graphics type="ELLIPSE" h="40.0" w="40.0" x="1067.1573486328125" y="1852.7061767578125" fill="#ff9999" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="LDSC" id="-93">
+    <att type="string" name="ID" value="LDSC"/>
+    <att type="string" name="URL" value="http://www.biomedcentral.com/1471-2105/7/269"/>
+    <att type="string" name="canonicalName" value="LDSC"/>
+    <att type="list" name="cytoscape.alias.list">
+      <att type="string" name="cytoscape.alias.list" value="LDSC"/>
+    </att>
+    <graphics type="ELLIPSE" h="40.0" w="40.0" x="645.4722900390625" y="1761.4964599609375" fill="#ff9999" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="ICGC" id="-144">
+    <att type="string" name="canonicalName" value="ICGC"/>
+    <graphics type="ELLIPSE" h="40.0" w="40.0" x="1184.2147216796875" y="1794.741943359375" fill="#ff9999" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="Gene3D" id="-143">
+    <att type="string" name="canonicalName" value="Gene3D"/>
+    <graphics type="ELLIPSE" h="40.0" w="40.0" x="1017.4945068359375" y="2015.853759765625" fill="#ff9999" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="HAMAP" id="-142">
+    <att type="string" name="canonicalName" value="HAMAP"/>
+    <graphics type="ELLIPSE" h="40.0" w="40.0" x="816.7182006835938" y="1829.419921875" fill="#ff9999" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="ProDom" id="-141">
+    <att type="string" name="canonicalName" value="ProDom"/>
+    <graphics type="ELLIPSE" h="40.0" w="40.0" x="951.9334106445312" y="1743.98583984375" fill="#ff9999" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="RatGenomDatabase" id="-140">
+    <att type="string" name="canonicalName" value="RatGenomDatabase"/>
+    <graphics type="ELLIPSE" h="40.0" w="40.0" x="1461.190185546875" y="1607.3699951171875" fill="#ff9999" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="PIRSF" id="-139">
+    <att type="string" name="canonicalName" value="PIRSF"/>
+    <graphics type="ELLIPSE" h="40.0" w="40.0" x="1083.1488037109375" y="1948.38623046875" fill="#ff9999" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="PancreaticExpressionDatabase" id="-138">
+    <att type="string" name="canonicalName" value="PancreaticExpressionDatabase"/>
+    <graphics type="ELLIPSE" h="40.0" w="40.0" x="1195.364501953125" y="1886.9625244140625" fill="#ff9999" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="InterDom" id="-89">
+    <att type="string" name="ID" value="InterDom"/>
+    <att type="integer" name="PGID" value="124"/>
+    <att type="string" name="canonicalName" value="InterDom"/>
+    <att type="list" name="cytoscape.alias.list">
+      <att type="string" name="cytoscape.alias.list" value="InterDom"/>
+    </att>
+    <graphics type="ELLIPSE" h="40.0" w="39.999969482421875" x="531.1422882080078" y="1613.745361328125" fill="#ff9999" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="LP" id="-90">
+    <att type="string" name="ID" value="LP"/>
+    <att type="string" name="URL" value="http://genomebiology.com/2006/7/11/R104"/>
+    <att type="string" name="canonicalName" value="LP"/>
+    <att type="list" name="cytoscape.alias.list">
+      <att type="string" name="cytoscape.alias.list" value="LP"/>
+    </att>
+    <graphics type="ELLIPSE" h="40.0" w="40.0" x="791.895263671875" y="1759.0050048828125" fill="#ff9999" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="OPHID" id="-42">
+    <att type="string" name="ID" value="OPHID"/>
+    <att type="integer" name="PGID" value="171"/>
+    <att type="string" name="canonicalName" value="I2D"/>
+    <att type="list" name="cytoscape.alias.list">
+      <att type="string" name="cytoscape.alias.list" value="OPHID"/>
+    </att>
+    <graphics type="ELLIPSE" h="40.0" w="40.0" x="870.5580444335938" y="1465.03076171875" fill="#ff9999" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="InternationalPotatoCenter" id="-137">
+    <att type="string" name="canonicalName" value="InternationalPotatoCenter"/>
+    <graphics type="ELLIPSE" h="40.0" w="40.0" x="1325.3446044921875" y="1944.5537109375" fill="#ff9999" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="RGD" id="-136">
+    <att type="string" name="canonicalName" value="RGD"/>
+    <graphics type="ELLIPSE" h="40.0" w="40.0" x="1329.2972412109375" y="1506.63232421875" fill="#ff9999" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="Vega" id="-135">
+    <att type="string" name="canonicalName" value="Vega"/>
+    <graphics type="ELLIPSE" h="40.0" w="40.0" x="1383.8779296875" y="1779.6409912109375" fill="#ff9999" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="POINT" id="-91">
+    <att type="string" name="ID" value="POINT"/>
+    <att type="integer" name="PGID" value="145"/>
+    <att type="string" name="canonicalName" value="POINT"/>
+    <att type="list" name="cytoscape.alias.list">
+      <att type="string" name="cytoscape.alias.list" value="POINT"/>
+    </att>
+    <graphics type="ELLIPSE" h="40.0" w="40.0" x="539.3670043945312" y="1683.37109375" fill="#ff9999" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="HapMap" id="-46">
+    <att type="string" name="ID" value="HapMap"/>
+    <att type="string" name="URL" value="http://hapmap.ncbi.nlm.nih.gov/"/>
+    <att type="string" name="canonicalName" value="HapMap"/>
+    <att type="list" name="cytoscape.alias.list">
+      <att type="string" name="cytoscape.alias.list" value="HapMap"/>
+    </att>
+    <graphics type="ELLIPSE" h="40.0" w="40.0" x="1096.097900390625" y="1563.65625" fill="#ff9999" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="EURatMart" id="-134">
+    <att type="string" name="canonicalName" value="EURatMart"/>
+    <graphics type="ELLIPSE" h="40.0" w="40.0" x="1475.66162109375" y="1662.9027099609375" fill="#ff9999" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="PInS" id="-92">
+    <att type="string" name="ID" value="PInS"/>
+    <att type="string" name="URL" value="http://pins.ornl.gov/"/>
+    <att type="string" name="canonicalName" value="PInS"/>
+    <att type="list" name="cytoscape.alias.list">
+      <att type="string" name="cytoscape.alias.list" value="PInS"/>
+    </att>
+    <graphics type="ELLIPSE" h="40.0" w="40.0" x="883.3052978515625" y="1581.4921875" fill="#ff9999" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="UniProt" id="-50">
+    <att type="string" name="ID" value="UniProt"/>
+    <att type="string" name="URL" value="http://www.uniprot.org/"/>
+    <att type="string" name="canonicalName" value="UniProt"/>
+    <att type="list" name="cytoscape.alias.list">
+      <att type="string" name="cytoscape.alias.list" value="UniProt"/>
+    </att>
+    <graphics type="ELLIPSE" h="40.0" w="40.0" x="1041.873046875" y="1703.6934814453125" fill="#ff9999" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="MODBASE" id="-133">
+    <att type="string" name="canonicalName" value="MODBASE"/>
+    <graphics type="ELLIPSE" h="40.0" w="40.0" x="800.3504028320312" y="1866.66552734375" fill="#ff9999" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="Europhenome" id="-132">
+    <att type="string" name="canonicalName" value="Europhenome"/>
+    <graphics type="ELLIPSE" h="40.0" w="40.0" x="1360.395751953125" y="1845.4815673828125" fill="#ff9999" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <node label="to" id="-131">
+    <att type="string" name="canonicalName" value="to"/>
+    <graphics type="ELLIPSE" h="40.0" w="40.0" x="1172.170654296875" y="1513.4993896484375" fill="#ff9999" width="1" outline="#ffffff" cy:nodeTransparency="1.0" cy:nodeLabelFont="SansSerif.bold-0-12" cy:borderLineType="solid"/>
+  </node>
+  <edge label="DASMI (mines) Bioverse" source="-73" target="-80">
+    <att type="string" name="canonicalName" value="DASMI (mines) Bioverse"/>
+    <att type="string" name="interaction" value="mines" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="6" cy:targetArrow="0" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="DASMI (maps) BioGRID" source="-73" target="-18">
+    <att type="string" name="canonicalName" value="DASMI (maps) BioGRID"/>
+    <att type="string" name="interaction" value="maps" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="0" cy:targetArrow="9" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="DASMI (mines) APMM" source="-73" target="-88">
+    <att type="string" name="canonicalName" value="DASMI (mines) APMM"/>
+    <att type="string" name="interaction" value="mines" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="6" cy:targetArrow="0" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="DASMI (mines) 3did" source="-73" target="-76">
+    <att type="string" name="canonicalName" value="DASMI (mines) 3did"/>
+    <att type="string" name="interaction" value="mines" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="6" cy:targetArrow="0" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="DASMI (maps) Domainsupport" source="-73" target="-77">
+    <att type="string" name="canonicalName" value="DASMI (maps) Domainsupport"/>
+    <att type="string" name="interaction" value="maps" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="0" cy:targetArrow="9" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="DASMI (mines) DIP" source="-73" target="-9">
+    <att type="string" name="canonicalName" value="DASMI (mines) DIP"/>
+    <att type="string" name="interaction" value="mines" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="6" cy:targetArrow="0" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="DASMI (mines) DIMA" source="-73" target="-81">
+    <att type="string" name="canonicalName" value="DASMI (mines) DIMA"/>
+    <att type="string" name="interaction" value="mines" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="6" cy:targetArrow="0" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="DASMI (mines) HPRD" source="-73" target="-8">
+    <att type="string" name="canonicalName" value="DASMI (mines) HPRD"/>
+    <att type="string" name="interaction" value="mines" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="6" cy:targetArrow="0" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="DASMI (mines) HiMAP" source="-73" target="-86">
+    <att type="string" name="canonicalName" value="DASMI (mines) HiMAP"/>
+    <att type="string" name="interaction" value="mines" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="6" cy:targetArrow="0" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="DASMI (maps) FunSimMat2.1" source="-73" target="-83">
+    <att type="string" name="canonicalName" value="DASMI (maps) FunSimMat2.1"/>
+    <att type="string" name="interaction" value="maps" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="0" cy:targetArrow="9" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="DASMI (mines) DPEA" source="-73" target="-84">
+    <att type="string" name="canonicalName" value="DASMI (mines) DPEA"/>
+    <att type="string" name="interaction" value="mines" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="6" cy:targetArrow="0" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="DASMI (maps) IPPRI" source="-73" target="-87">
+    <att type="string" name="canonicalName" value="DASMI (maps) IPPRI"/>
+    <att type="string" name="interaction" value="maps" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="0" cy:targetArrow="9" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="DASMI (maps) iPfam" source="-73" target="-75">
+    <att type="string" name="canonicalName" value="DASMI (maps) iPfam"/>
+    <att type="string" name="interaction" value="maps" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="0" cy:targetArrow="9" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="DASMI (mines) InterDom" source="-73" target="-89">
+    <att type="string" name="canonicalName" value="DASMI (mines) InterDom"/>
+    <att type="string" name="interaction" value="mines" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="6" cy:targetArrow="0" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="DASMI (maps) IntAct" source="-73" target="-30">
+    <att type="string" name="canonicalName" value="DASMI (maps) IntAct"/>
+    <att type="string" name="interaction" value="maps" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="0" cy:targetArrow="9" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="DASMI (mines) LDSC" source="-73" target="-93">
+    <att type="string" name="canonicalName" value="DASMI (mines) LDSC"/>
+    <att type="string" name="interaction" value="mines" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="6" cy:targetArrow="0" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="DASMI (mines) LLZ" source="-73" target="-85">
+    <att type="string" name="canonicalName" value="DASMI (mines) LLZ"/>
+    <att type="string" name="interaction" value="mines" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="6" cy:targetArrow="0" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="DASMI (mines) LP" source="-73" target="-90">
+    <att type="string" name="canonicalName" value="DASMI (mines) LP"/>
+    <att type="string" name="interaction" value="mines" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="6" cy:targetArrow="0" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="DASMI (maps) MINT" source="-73" target="-4">
+    <att type="string" name="canonicalName" value="DASMI (maps) MINT"/>
+    <att type="string" name="interaction" value="maps" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="0" cy:targetArrow="9" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="DASMI (maps) MPIDB" source="-73" target="-52">
+    <att type="string" name="canonicalName" value="DASMI (maps) MPIDB"/>
+    <att type="string" name="interaction" value="maps" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="0" cy:targetArrow="9" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="DASMI (mines) OPHID" source="-73" target="-42">
+    <att type="string" name="canonicalName" value="DASMI (mines) OPHID"/>
+    <att type="string" name="interaction" value="mines" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="6" cy:targetArrow="0" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="DASMI (mines) PInS" source="-73" target="-92">
+    <att type="string" name="canonicalName" value="DASMI (mines) PInS"/>
+    <att type="string" name="interaction" value="mines" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="6" cy:targetArrow="0" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="DASMI (mines) POINT" source="-73" target="-91">
+    <att type="string" name="canonicalName" value="DASMI (mines) POINT"/>
+    <att type="string" name="interaction" value="mines" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="6" cy:targetArrow="0" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="DASMI (mines) RCDP50" source="-73" target="-82">
+    <att type="string" name="canonicalName" value="DASMI (mines) RCDP50"/>
+    <att type="string" name="interaction" value="mines" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="6" cy:targetArrow="0" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="DASMI (mines) RDFF" source="-73" target="-78">
+    <att type="string" name="canonicalName" value="DASMI (mines) RDFF"/>
+    <att type="string" name="interaction" value="mines" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="6" cy:targetArrow="0" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="DASMI (mines) Sanger" source="-73" target="-74">
+    <att type="string" name="canonicalName" value="DASMI (mines) Sanger"/>
+    <att type="string" name="interaction" value="mines" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="6" cy:targetArrow="0" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="DASMI (mines) TW" source="-73" target="-79">
+    <att type="string" name="canonicalName" value="DASMI (mines) TW"/>
+    <att type="string" name="interaction" value="mines" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="6" cy:targetArrow="0" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="DASMI (mines) CCSB-HI1" source="-73" target="-169">
+    <att type="string" name="canonicalName" value="DASMI (mines) CCSB-HI1"/>
+    <att type="string" name="interaction" value="mines" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="6" cy:targetArrow="0" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="DASMI (mines) MDC" source="-73" target="-164">
+    <att type="string" name="canonicalName" value="DASMI (mines) MDC"/>
+    <att type="string" name="interaction" value="mines" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="6" cy:targetArrow="0" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="InterPro (maps) IntAct" source="-12" target="-30">
+    <att type="string" name="canonicalName" value="InterPro (maps) IntAct"/>
+    <att type="string" name="interaction" value="maps" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="0" cy:targetArrow="9" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="InterPro (maps) PDB" source="-12" target="-66">
+    <att type="string" name="canonicalName" value="InterPro (maps) PDB"/>
+    <att type="string" name="interaction" value="maps" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="0" cy:targetArrow="9" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="InterPro (mines) UniProt" source="-12" target="-50">
+    <att type="string" name="canonicalName" value="InterPro (mines) UniProt"/>
+    <att type="string" name="interaction" value="mines" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="6" cy:targetArrow="0" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="InterPro (mines) PRINTS" source="-12" target="-168">
+    <att type="string" name="canonicalName" value="InterPro (mines) PRINTS"/>
+    <att type="string" name="interaction" value="mines" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="6" cy:targetArrow="0" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="InterPro (mines) PROSITE" source="-12" target="-170">
+    <att type="string" name="canonicalName" value="InterPro (mines) PROSITE"/>
+    <att type="string" name="interaction" value="mines" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="6" cy:targetArrow="0" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="InterPro (mines) Pfam" source="-12" target="-15">
+    <att type="string" name="canonicalName" value="InterPro (mines) Pfam"/>
+    <att type="string" name="interaction" value="mines" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="6" cy:targetArrow="0" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="InterPro (mines) ProDom" source="-12" target="-141">
+    <att type="string" name="canonicalName" value="InterPro (mines) ProDom"/>
+    <att type="string" name="interaction" value="mines" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="6" cy:targetArrow="0" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="InterPro (mines) SMART" source="-12" target="-63">
+    <att type="string" name="canonicalName" value="InterPro (mines) SMART"/>
+    <att type="string" name="interaction" value="mines" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="6" cy:targetArrow="0" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="InterPro (mines) TIGRFAMs" source="-12" target="-165">
+    <att type="string" name="canonicalName" value="InterPro (mines) TIGRFAMs"/>
+    <att type="string" name="interaction" value="mines" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="6" cy:targetArrow="0" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="InterPro (mines) PANTHER" source="-12" target="-65">
+    <att type="string" name="canonicalName" value="InterPro (mines) PANTHER"/>
+    <att type="string" name="interaction" value="mines" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="6" cy:targetArrow="0" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="InterPro (mines) PIRSF" source="-12" target="-139">
+    <att type="string" name="canonicalName" value="InterPro (mines) PIRSF"/>
+    <att type="string" name="interaction" value="mines" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="6" cy:targetArrow="0" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="InterPro (mines) Gene3D" source="-12" target="-143">
+    <att type="string" name="canonicalName" value="InterPro (mines) Gene3D"/>
+    <att type="string" name="interaction" value="mines" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="6" cy:targetArrow="0" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="InterPro (mines) SUPERFAMILY" source="-12" target="-145">
+    <att type="string" name="canonicalName" value="InterPro (mines) SUPERFAMILY"/>
+    <att type="string" name="interaction" value="mines" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="6" cy:targetArrow="0" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="InterPro (mines) SCOP" source="-12" target="-175">
+    <att type="string" name="canonicalName" value="InterPro (mines) SCOP"/>
+    <att type="string" name="interaction" value="mines" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="6" cy:targetArrow="0" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="InterPro (mines) CATH" source="-12" target="-171">
+    <att type="string" name="canonicalName" value="InterPro (mines) CATH"/>
+    <att type="string" name="interaction" value="mines" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="6" cy:targetArrow="0" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="InterPro (mines) MSD" source="-12" target="-148">
+    <att type="string" name="canonicalName" value="InterPro (mines) MSD"/>
+    <att type="string" name="interaction" value="mines" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="6" cy:targetArrow="0" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="InterPro (mines) Swiss-Model" source="-12" target="-161">
+    <att type="string" name="canonicalName" value="InterPro (mines) Swiss-Model"/>
+    <att type="string" name="interaction" value="mines" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="6" cy:targetArrow="0" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="InterPro (mines) MODBASE" source="-12" target="-133">
+    <att type="string" name="canonicalName" value="InterPro (mines) MODBASE"/>
+    <att type="string" name="interaction" value="mines" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="6" cy:targetArrow="0" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="InterPro (maps) MEROPS" source="-12" target="-155">
+    <att type="string" name="canonicalName" value="InterPro (maps) MEROPS"/>
+    <att type="string" name="interaction" value="maps" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="0" cy:targetArrow="9" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="InterPro (mines) HAMAP" source="-12" target="-142">
+    <att type="string" name="canonicalName" value="InterPro (mines) HAMAP"/>
+    <att type="string" name="interaction" value="mines" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="6" cy:targetArrow="0" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="BioMart (maps) CyanoBase" source="-152" target="-162">
+    <att type="string" name="canonicalName" value="BioMart (maps) CyanoBase"/>
+    <att type="string" name="interaction" value="maps" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="0" cy:targetArrow="9" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="BioMart (maps) RatGenomeDatabase" source="-152" target="-176">
+    <att type="string" name="canonicalName" value="BioMart (maps) RatGenomeDatabase"/>
+    <att type="string" name="interaction" value="maps" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="0" cy:targetArrow="9" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="BioMart (maps) MGI" source="-152" target="-150">
+    <att type="string" name="canonicalName" value="BioMart (maps) MGI"/>
+    <att type="string" name="interaction" value="maps" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="0" cy:targetArrow="9" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="BioMart (maps) EURatMart" source="-152" target="-134">
+    <att type="string" name="canonicalName" value="BioMart (maps) EURatMart"/>
+    <att type="string" name="interaction" value="maps" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="0" cy:targetArrow="9" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="BioMart (maps) RatGenomDatabase" source="-152" target="-140">
+    <att type="string" name="canonicalName" value="BioMart (maps) RatGenomDatabase"/>
+    <att type="string" name="interaction" value="maps" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="0" cy:targetArrow="9" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="BioMart (maps) COSMIC" source="-152" target="-172">
+    <att type="string" name="canonicalName" value="BioMart (maps) COSMIC"/>
+    <att type="string" name="interaction" value="maps" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="0" cy:targetArrow="9" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="BioMart (maps) IKMC" source="-152" target="-156">
+    <att type="string" name="canonicalName" value="BioMart (maps) IKMC"/>
+    <att type="string" name="interaction" value="maps" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="0" cy:targetArrow="9" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="BioMart (maps) Rice-Map" source="-152" target="-159">
+    <att type="string" name="canonicalName" value="BioMart (maps) Rice-Map"/>
+    <att type="string" name="interaction" value="maps" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="0" cy:targetArrow="9" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="BioMart (maps) Phytozome" source="-152" target="-158">
+    <att type="string" name="canonicalName" value="BioMart (maps) Phytozome"/>
+    <att type="string" name="interaction" value="maps" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="0" cy:targetArrow="9" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="BioMart (maps) ICGC" source="-152" target="-144">
+    <att type="string" name="canonicalName" value="BioMart (maps) ICGC"/>
+    <att type="string" name="interaction" value="maps" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="0" cy:targetArrow="9" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="BioMart (maps) to" source="-152" target="-131">
+    <att type="string" name="canonicalName" value="BioMart (maps) to"/>
+    <att type="string" name="interaction" value="maps" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="0" cy:targetArrow="9" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="BioMart (maps) HGNC" source="-152" target="-119">
+    <att type="string" name="canonicalName" value="BioMart (maps) HGNC"/>
+    <att type="string" name="interaction" value="maps" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="0" cy:targetArrow="9" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="BioMart (maps) Ensembl" source="-152" target="-29">
+    <att type="string" name="canonicalName" value="BioMart (maps) Ensembl"/>
+    <att type="string" name="interaction" value="maps" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="0" cy:targetArrow="9" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="BioMart (maps) Vega" source="-152" target="-135">
+    <att type="string" name="canonicalName" value="BioMart (maps) Vega"/>
+    <att type="string" name="interaction" value="maps" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="0" cy:targetArrow="9" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="BioMart (maps) HTGT" source="-152" target="-163">
+    <att type="string" name="canonicalName" value="BioMart (maps) HTGT"/>
+    <att type="string" name="interaction" value="maps" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="0" cy:targetArrow="9" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="BioMart (maps) Gramene" source="-152" target="-173">
+    <att type="string" name="canonicalName" value="BioMart (maps) Gramene"/>
+    <att type="string" name="interaction" value="maps" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="0" cy:targetArrow="9" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="BioMart (maps) Reactome" source="-152" target="-22">
+    <att type="string" name="canonicalName" value="BioMart (maps) Reactome"/>
+    <att type="string" name="interaction" value="maps" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="0" cy:targetArrow="9" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="BioMart (maps) Wormbase" source="-152" target="-166">
+    <att type="string" name="canonicalName" value="BioMart (maps) Wormbase"/>
+    <att type="string" name="interaction" value="maps" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="0" cy:targetArrow="9" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="BioMart (maps) Dictybase" source="-152" target="-157">
+    <att type="string" name="canonicalName" value="BioMart (maps) Dictybase"/>
+    <att type="string" name="interaction" value="maps" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="0" cy:targetArrow="9" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="BioMart (maps) RGD" source="-152" target="-136">
+    <att type="string" name="canonicalName" value="BioMart (maps) RGD"/>
+    <att type="string" name="interaction" value="maps" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="0" cy:targetArrow="9" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="BioMart (maps) PRIDE" source="-152" target="-146">
+    <att type="string" name="canonicalName" value="BioMart (maps) PRIDE"/>
+    <att type="string" name="interaction" value="maps" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="0" cy:targetArrow="9" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="BioMart (maps) MSD" source="-152" target="-148">
+    <att type="string" name="canonicalName" value="BioMart (maps) MSD"/>
+    <att type="string" name="interaction" value="maps" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="0" cy:targetArrow="9" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="BioMart (maps) PancreaticExpressionDatabase" source="-152" target="-138">
+    <att type="string" name="canonicalName" value="BioMart (maps) PancreaticExpressionDatabase"/>
+    <att type="string" name="interaction" value="maps" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="0" cy:targetArrow="9" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="BioMart (maps) PepSeeker" source="-152" target="-151">
+    <att type="string" name="canonicalName" value="BioMart (maps) PepSeeker"/>
+    <att type="string" name="interaction" value="maps" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="0" cy:targetArrow="9" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="BioMart (maps) ArrayExpress" source="-152" target="-153">
+    <att type="string" name="canonicalName" value="BioMart (maps) ArrayExpress"/>
+    <att type="string" name="interaction" value="maps" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="0" cy:targetArrow="9" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="BioMart (maps) GermOnLine" source="-152" target="-147">
+    <att type="string" name="canonicalName" value="BioMart (maps) GermOnLine"/>
+    <att type="string" name="interaction" value="maps" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="0" cy:targetArrow="9" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="BioMart (maps) DroSpeGe" source="-152" target="-167">
+    <att type="string" name="canonicalName" value="BioMart (maps) DroSpeGe"/>
+    <att type="string" name="interaction" value="maps" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="0" cy:targetArrow="9" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="BioMart (maps) HapMap" source="-152" target="-46">
+    <att type="string" name="canonicalName" value="BioMart (maps) HapMap"/>
+    <att type="string" name="interaction" value="maps" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="0" cy:targetArrow="9" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="BioMart (maps) VectorBase" source="-152" target="-149">
+    <att type="string" name="canonicalName" value="BioMart (maps) VectorBase"/>
+    <att type="string" name="interaction" value="maps" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="0" cy:targetArrow="9" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="BioMart (maps) ParameciumDB" source="-152" target="-154">
+    <att type="string" name="canonicalName" value="BioMart (maps) ParameciumDB"/>
+    <att type="string" name="interaction" value="maps" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="0" cy:targetArrow="9" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="BioMart (maps) Eurexpress" source="-152" target="-160">
+    <att type="string" name="canonicalName" value="BioMart (maps) Eurexpress"/>
+    <att type="string" name="interaction" value="maps" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="0" cy:targetArrow="9" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="BioMart (maps) Europhenome" source="-152" target="-132">
+    <att type="string" name="canonicalName" value="BioMart (maps) Europhenome"/>
+    <att type="string" name="interaction" value="maps" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="0" cy:targetArrow="9" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="BioMart (maps) InterPro" source="-152" target="-12">
+    <att type="string" name="canonicalName" value="BioMart (maps) InterPro"/>
+    <att type="string" name="interaction" value="maps" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="0" cy:targetArrow="9" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="BioMart (maps) EURATools" source="-152" target="-174">
+    <att type="string" name="canonicalName" value="BioMart (maps) EURATools"/>
+    <att type="string" name="interaction" value="maps" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="0" cy:targetArrow="9" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="BioMart (maps) InternationalPotatoCenter" source="-152" target="-137">
+    <att type="string" name="canonicalName" value="BioMart (maps) InternationalPotatoCenter"/>
+    <att type="string" name="interaction" value="maps" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="0" cy:targetArrow="9" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+  <edge label="BioMart (maps) UniProt" source="-152" target="-50">
+    <att type="string" name="canonicalName" value="BioMart (maps) UniProt"/>
+    <att type="string" name="interaction" value="maps" cy:editable="false"/>
+    <graphics width="1" fill="#011e59" cy:sourceArrow="0" cy:targetArrow="9" cy:sourceArrowColor="#000000" cy:targetArrowColor="#000000" cy:edgeLabelFont="Default-0-10" cy:edgeLineType="SOLID" cy:curved="STRAIGHT_LINES"/>
+  </edge>
+</graph>

@@ -1,0 +1,6 @@
+AuthName "Welcome PRL Administrator"
+AuthType Basic
+#AuthUserFile /srv/www/htdocs/prl/admin/.htpasswd
+AuthUserFile /var/www/prl/admin/.htpasswd
+Require user bader demir haroldr
+
