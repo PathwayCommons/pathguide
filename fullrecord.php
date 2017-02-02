@@ -2,7 +2,7 @@
 if(!(isset($adminURL))){
 	include ("config.php");
 	$websiteTitle								= $pathguideTitle."|Full Record";
-	$tabs										= "top_tabs.php";	
+	$tabs										= "top_tabs.php";
 	$logo										= "logo.gif";
 	$menu										= "top_menu.php";
 }
@@ -220,7 +220,7 @@ print "<tr><td class=\"TableSideHeader\">Homepage Uptime Statistics</td><td bgco
 include ("$backfolder"."color_switch_mechanism.php");
 print "$row_color' >";
 while($myRow									= mysql_fetch_row($result)){
-	print "<a href='http://host-tracker.com/web-site-uptime/$myRow[0]/'><img alt='free web server monitoring service' width=80 style=\"height:15;\" border=\"0\" src=\"http://ext.host-tracker.com/uptime-img/?s=15&amp;t=$myRow[0]"."&amp;m=00.0&amp;p=Total\" ></a><noscript><a href='http://host-tracker.com/'>uptime script</a></noscript>";
+	print "<a href='http://www.host-tracker.com/UptimeGraph/UptimeInfo/$myRow[0]/' target='_blank'><img id='HostTrackerInformer' width='80' height='15' border='0' title='Website tracker - uptime monitoring service Host-tracker.com' alt='Website tracker - uptime monitoring service Host-tracker.com' src='//i.h-t.co/website ping.png?id=$myRow[0]' /></a>"
 }
 print "</td></tr>";
 
